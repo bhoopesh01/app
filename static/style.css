@@ -1,0 +1,179 @@
+body {
+background-color: #e7f3f2; /* Light mint */
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #10375c; /* Dark navy */
+padding: 10px 15px;
+margin: 0;
+}
+nav {
+background-color: #10375c;
+padding: 12px 20px;
+border-radius: 6px;
+margin-bottom: 30px;
+box-shadow: 0 2px 6px rgba(20, 83, 116, 0.4);
+}
+nav a
+{
+margin-right: 18px;
+font-weight: 600;
+text-decoration: none;
+font-size: 1.05rem;
+transition: color 0.3s ease;
+}
+nav a:hover{
+color: #ffffff;
+text-decoration: underline;
+}
+.container
+{
+max-width: 480px;
+margin:0 auto;
+background: #ffffff;
+padding: 30px 28px;
+border-radius: 10px;
+box-shadow:0 4px 12px rgba
+(16, 55, 92, 0.15);
+}
+h2{
+margin-bottom: 28px;
+text-align: center;
+font-weight: 700;
+font-size: 1.8rem;
+letter-spacing: 0.03em;
+color: #10375c;
+}
+.form-control
+{
+border: 1.8px solid #a3d2ca;
+border-radius: 8px;
+padding: 12px 16px;
+font-size: 1rem;
+color: #10375c;
+transition: border-color 0.3s ease;
+}
+.form-control:focus{
+    outline: none;
+border-color: #10375c;
+box-shadow:0 0 8px #a3d2ca;
+}
+button.btn-primary
+{
+background-color: #10375c;
+border: none;
+width: 100%;
+padding: 14px 0;
+font-size: 1.15rem;
+font-weight: 700;
+border-radius: 8px;
+
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+button.btn-primary:hover
+{
+background-color: #10375c;
+}
+.text-center a{
+color: #145374;
+text-decoration: none;
+font-weight: 600;
+}
+.text-center a:hover
+{
+text-decoration: underline;
+}
+.expense-list
+{
+margin-top: 28px;
+max-height: 260px;
+overflow-y: auto;
+border-top: 2px solid #a3d2ca;
+padding-top: 18px;
+}
+.expense-item
+{
+display: flex;
+justify-content: space-between;
+padding: 9px 0;
+border-bottom: 1px solid #cde6e2;
+font-weight: 600;
+color: #145374;
+}
+.total
+{
+margin-top: 22px;
+font-weight: 800;
+font-size: 1.4rem;
+text-align: right;
+color: #0d274d;
+}
+
+.btn-secondary
+{
+background-color: #0f3d5b;
+color: #ffffff;
+padding: 10px 20px;
+font-size: 1rem;
+font-weight: bold;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+text-decoration: none;
+display: inline-block;
+margin-top: 10px;
+transition: background-color 0.3s ease, box-shadow 0.3s ease;
+
+}
+.btn-secondary:hover
+{
+background-color: #145374;
+box-shadow:0 4px 10px rgba
+(15, 61, 91, 0.3);
+}
+#btn-delete
+{
+width: auto;
+padding:0 12px;
+}
+/* Navbar Theme */
+/* Navbar Theme - CORRECTED */
+.navbar-theme {
+  padding: 10px 15px;
+  background-color: #10375c; /* Make sure background is set here */
+}
+
+.navbar-theme .navbar-brand {
+  color: #ffffff; /* White text */
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.navbar-theme .navbar-brand:hover {
+  color: #f1f1f1;
+}
+
+/* This rule now correctly targets the Bootstrap buttons */
+.navbar-theme .btn-outline-light {
+  color: #ffffff; /* Sets the initial text color to white */
+  border-color: #ffffff; /* Sets the initial border color to white */
+}
+
+/* This rule makes them change color on hover */
+.navbar-theme .btn-outline-light:hover {
+  background-color: #ffffff;
+  color: #10375c; /* Navy on hover */
+}
+
+/* This rule keeps the logout button looking like a red danger button */
+.navbar-theme .btn-danger {
+  color: #ffffff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+/* This darkens the logout button slightly on hover */
+.navbar-theme .btn-danger:hover {
+  background-color: #bb2d3b;
+  border-color: #b02a37;
+}
